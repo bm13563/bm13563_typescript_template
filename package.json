@@ -1,0 +1,28 @@
+{
+  "name": "tiny-api",
+  "version": "1.0.0",
+  "description": "Using node.js and GitHub pages to automatically generate static APIs (experimental)",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "tslint -c tslint.json -p tsconfig.json --fix",
+    "tsc": "tsc",
+    "build": "npm-run-all lint tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bm13563/tiny-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bm13563/tiny-api/issues"
+  },
+  "homepage": "https://github.com/bm13563/tiny-api#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "tslint": "^6.1.3",
+    "typescript": "^4.1.3"
+  }
+}
